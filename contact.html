@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/Css/contactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./Assets/Css/shared.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Wamdah</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <img src="./Assets/Images/Logo.png" alt="Wamdah_logo">
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNav" style="flex-grow:unset">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./articles.html">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="title">
+            <h1>We are here to help you Contact Us</h1>
+        </div>
+    </section>
+    <section class="contacttools">
+        <div class="contactcard">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <h3>Support Line</h3>
+            <h4>Our support team is available 24/7, just give us a call!</h4>
+            <a href="tel:+963-95000000">
+                <p>963-95000000</p>
+            </a>
+        </div>
+        <div class="contactcard">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <h3>Support Email</h3>
+            <h4>Email us</h4>
+            <a href="mailto:abcd@efjh.com">
+                <p>abcd@efjh.com</p>
+            </a>
+        </div>
+        <div class="contactcard">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <h3>location</h3>
+            <h4>Syria , Damascus, Syrian Virtual University</h4>
+        </div>
+    </section>
+    <section class="sendmessage">
+        <div>
+            <h1> Send us a message</h1>
+            <form id="sendForm">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter your name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email1" name="email1" placeholder="Enter your email" name="email">
+                <p id="errorMessage1" style="color: red; display: none;">Please enter a valid email address.</p>
+                <label for="meassage">Meassage</label>
+                <textarea placeholder="Write your meassage"></textarea>
+                <button type="submit"> Send</button>
+            </form>
+        </div>
+        <div class="message">
+            <img src="./Assets/Images/email.jpg" alt="email">
+        </div>
+    </section>
+    <hr>
+    <section class="Followus">
+        <h1> Don't forget to Follow Us on Social Media</h1>
+        <div class="icon">
+            <div class="icons">
+                <a href="#"> <img src="./Assets/Images/FB_icon.svg" alt="Facebook"> </a>
+                <a href="#"><img src="./Assets/Images/instagram_icon.svg" alt="Instagram"></a>
+                <a href="#"><img src="./Assets/Images/x_icon.svg" alt="Twitter"></a>
+                <a href="#"><img src="./Assets/Images/youtube_icon.svg" alt="Youtube"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="Overview">
+            <div class="about">
+                <img src="./Assets/Images/Logo.png" alt="Wamdah_logo">
+                <p>Wamdah is An electronic general-interest magazine that shines a light on diverse topics, catering to
+                    the modern reader's curiosity and needs</p>
+            </div>
+            <div class="quicklinks">
+                <h2>Quick links</h2>
+                <ul>
+                    <li class="active"> <a href="#">Home</a></li>
+                    <li> <a href="./articles.html">Articles</a></li>
+                    <li> <a href="./about.html">About us</a></li>
+                    <li> <a href="./contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="Socialmedia">
+            <h2>Follow Us On:</h2>
+            <div class="icons">
+                <a href="https://www.facebook.com" target="_blank"> <img src="./Assets/Images/FB_icon.svg"
+                        alt="Facebook"> </a>
+                <a href="https://www.instagram.com" target="_blank"><img src="./Assets/Images/instagram_icon.svg"
+                        alt="Instagram"></a>
+                <a href="https://www.x.com" target="_blank"><img src="./Assets/Images/x_icon.svg" alt="Twitter"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="./Assets/Images/youtube_icon.svg"
+                        alt="Youtube"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="Subscribe">
+            <div class="join">
+                <h2> Join Our Newsletter </h2>
+                <p>keep up to date with every news</p>
+            </div>
+
+            <div class="email">
+                <form id="emailForm">
+
+                    <div class="input">
+                        <input type="text" id="email" name="email" placeholder="Enter your Email" class="textbox">
+                        <button type="submit" class="button"> Subscribe Now </button>
+
+                    </div>
+                </form>
+                <p id="errorMessage" style="color: red; display: none;">Please enter a valid email address.</p>
+            </div>
+
+
+        </div>
+        <hr>
+        <div class="Copyright">
+            <p> Copyright © 2024 Syrian Virtual University | Powered by WP1</p>
+            <a href="#">Privecy Policy</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <script src="./Assets/Js/custom.js"></script>
+</body>
+
+</html>
