@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Helvetica", sans-serif;
+}
+body{
+  
+    .hero{
+        height:100vh;
+        padding: 0 70px;
+        background-image: url(../Images/contact_us.jpg);
+        background-size: cover;
+        display: grid;
+        align-items: center;
+        .title{
+            height: 200px;
+            max-width: 400px;
+            background-color: #91a0b387;
+            border: none;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1{
+                text-align: center;
+                font-size: 32px;
+                color:#fff;
+            }
+        }
+    }
+    .contacttools{
+        margin-top: 50px 0;
+        padding: 40px 70px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 36px;
+        background-color: #1d2d44;
+        .contactcard{
+            height: 250px;
+            width: 300px;
+            background-color: #fff;
+            border:none;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            text-align: center;
+            .icon{
+                height: 36px;
+                width: 36px;
+                color: #1d2d44;
+                font-size: 36px;
+            }
+            h3{
+                font-size: 24px;
+                color: #1d2d44;
+                font-weight: 500;
+            }
+            h4{
+                font-size: 16px;
+                color: #9c9c9c;
+                font-weight: 300;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 600;
+                color: #3e5c76;
+            }
+
+        }
+    }
+    .sendmessage{
+        margin: 50px 0;
+        padding: 0 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 32px;
+            font-weight: 600;
+            color: #1d2d44;
+            margin-bottom: 24px;
+        }
+        form{
+            width: 50vw;
+            padding: 16px 24px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            background-color:#91a0b3a1;
+            label{
+                font-size: 16px;
+                font-weight: 500px;
+                color: #3e5c76;
+            }
+            input{
+                height: 36px;
+                width: 100%;
+                padding-left: 8px;
+                background-color: #fff;
+                border: 1px solid #9c9c9c;
+                border-radius: 8px;
+            }
+            textarea{
+                padding-left: 8px;
+                padding-top: 16px;
+                max-width:100%;
+                min-width: 100%;
+                max-height: fit-content;
+                min-height: 45px;
+                background-color: #fff;
+                border: 1px solid #9c9c9c;
+                border-radius: 8px;
+            }
+            button{
+                height: 40px;
+                max-width: 120px;
+                background-color: #1d2d44;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+                border-radius: 8px;
+            }
+        }
+        .message{
+            max-width: 450px;
+            max-height: 450px;
+            display: flex;
+            align-items: center;
+            img{
+                width: 100%;
+                border: 1px solid #1d2d44;
+                border-radius: 20px;
+            }
+        }
+    }
+    .Followus{
+        margin: 30px 0;
+        padding: 0 70px;
+        h1{
+            font-size: 32px;
+            font-weight: 600;
+            color: #1d2d44;
+            margin-bottom: 24px;
+        }
+        .icons{
+            background-color: #1d2d44;
+            padding: 24px 0;
+            display: flex;
+            gap: 36px;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                img{
+                    height: 35px;
+                    width: 35px;
+                    color: #1d2d44;
+                }
+            }
+        }
+    }
+ 
+}
+@media screen and ( max-width : 992px) {
+  
+    body header nav ul{
+        display: none;
+    }
+    body header nav .bars{
+        display: block;
+    }
+    body .sendmessage{
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+    body .Followus .icons{
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+    }
+    body footer{
+        padding: 50px 20px;
+    }
+    body footer .Subscribe{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        margin: 24px 0;
+    }
+    body footer .Subscribe .input{
+        flex-direction: column;
+        gap: 20px;
+        align-items: baseline;
+    }
+    body footer .Copyright{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

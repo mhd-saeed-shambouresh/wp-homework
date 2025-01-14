@@ -1,0 +1,197 @@
+header {
+    nav {
+        height: 80px;
+        padding: 0 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #91a0b3;
+
+        img {
+            max-width: 120px;
+        }
+
+        ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+
+            li {
+                height: 72px;
+                padding: 0 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                min-width: 84px;
+
+                a {
+                    text-decoration: none;
+                    color: #1d2d44;
+                }
+            }
+        }
+
+        li.active {
+            color: #fff;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        li:hover {
+            color: #ffffff;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        .bars {
+            height: 24px;
+            width: 24px;
+            font-size: 24px;
+            background: none;
+            border: none;
+            display: none;
+            cursor: pointer;
+            color: #1d2d44;
+        }
+    }
+}
+
+footer {
+    padding: 50px 70px;
+    background-color: #91a0b3;
+    color: #fff;
+
+    .Overview {
+        .about {
+            img {
+                height: 70px;
+            }
+
+            p {
+                margin-top: 16px;
+                margin-left: 20px;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
+        .quicklinks {
+            margin: 20px 0 24px 20px;
+
+            h2 {
+                color: #1d2d44;
+            }
+
+            ul {
+                margin-left: 20px;
+                list-style: disc;
+                font-size: 16px;
+
+                li {
+                    cursor: pointer;
+                    padding-top: 10px;
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .Socialmedia {
+        margin: 24px 0 24px 20px;
+
+        h2 {
+            color: #1d2d44;
+        }
+
+        .icons {
+            display: flex;
+            gap: 20px;
+            margin-top: 16px;
+
+            a {
+                img {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+
+    .Subscribe {
+        margin: 24px 0 20px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .join {
+            h2 {
+                color: #1d2d44;
+                margin-bottom: 8px;
+            }
+        }
+
+        .input {
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+
+            .textbox {
+                height: 45px;
+                width: 230px;
+                border: none;
+                border-radius: 8px;
+                padding-left: 24px;
+            }
+
+            .button {
+                height: 45px;
+                width: 150px;
+                border: none;
+                border-radius: 8px;
+                background-color: #1d2d44;
+                color: #fff;
+            }
+        }
+
+        .button:hover {
+            background-color: #3e5c76;
+        }
+    }
+
+    .Copyright {
+        margin: 24px 20px 0 20px;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-size: 12px;
+        }
+
+        a {
+
+            font-size: 12px;
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .navbar-nav {
+        background-color: #91a0b3;
+    }
+}
