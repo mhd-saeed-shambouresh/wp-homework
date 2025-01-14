@@ -136,11 +136,7 @@ body{
         align-items: flex-start;
         margin: 24px 0;
     }
-    body footer .Subscribe .input{
-        flex-direction: column;
-        gap: 20px;
-        align-items: baseline;
-    }
+ 
     body footer .Copyright{
         flex-direction: column;
         gap: 20px;
